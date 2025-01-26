@@ -13,7 +13,6 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    border: 1px solid #45C4B0;
     background-color: #45C4B0;
   }
   
@@ -34,14 +33,11 @@ width: 30%;
     font-size: 130%;
   }
   
-  li a:hover:not(.active) {
+  li a:hover {
     background-color: #9AEBA3;
   }
   
-  li a.active {
-    color: white;
-    background-color: #04AA6D; }
- 
+  
     nav img {
       width:  9%;
     }
@@ -66,9 +62,9 @@ width: 30%;
 
 h4{
   text-align: center;
-  font-size: 200%;
-  background-color: rgb(26, 70, 110);
-  width: 10em;
+  font-size: 160%;
+  background-color: #9AEBA3;
+  width: 12em;
   padding: 1em;
   margin: 1em;
   transition: width 2s;
@@ -99,7 +95,7 @@ section ul {
   justify-content: space-evenly
 }
 
-    .ons {
+    section {
       padding: 1em;
       margin: 1em;
       border-radius: 20px;
@@ -113,11 +109,14 @@ section ul {
 
   .flex-item img{
     display: flex;
-    padding: 5%;
+    padding: 2%;
     width: 90%;
     margin: auto;
+    transition: width 3s, height 3s, transform 3s;
 
   }
+
+ 
 
 .flex-item p{
   padding: 5%;
@@ -132,13 +131,10 @@ section ul {
     footer{color: bisque;}
 
    
-      footer a:hover:not(.active) {
+      footer a:hover {
         background-color: #04aa6d;
       }
       
-      footer a.active {
-        color: white;
-        background-color: #04aa6d; }
     
       h2{
         padding-right: 20%;
@@ -157,8 +153,11 @@ section ul {
       padding: 1em;               
       flex-direction: row; 
            border: 6px solid #f4f5ca;
-    }
 
+    }
+ .flex-container3 img:hover{
+  transform: rotate(180deg);
+  }
     .flex-container3 h3{
       text-align: center;
       font-size: 180%;
@@ -181,10 +180,7 @@ section ul {
 .contact  h3{
   text-align: center;
   font-size: 150%;
-  border-bottom: #dbcfaf;
-  border-top: #343333;
-  border-left: #343333;
-  border-right: #343333;
+  border: #343333;
   border-style: double;
 }
 
